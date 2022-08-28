@@ -586,7 +586,6 @@ vendor/etc/pwr/PowerFeatureConfig.xml
 vendor/etc/pwr/StandbyFeature.xml
 vendor/etc/pwr/VendorScenarioPowerOptFeature.xml
 vendor/etc/pwr/VideoPowerOptFeature.xml
-vendor/etc/powerhint.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
 vendor/lib64/libgamepoweroptfeature.so
 vendor/lib64/liblearningmodule.so
