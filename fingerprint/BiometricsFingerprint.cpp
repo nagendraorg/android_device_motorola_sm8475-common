@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.moto_sm8475_fod"
-
 #include "BiometricsFingerprint.h"
 
 #include <android-base/file.h>
