@@ -89,6 +89,23 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/media_codecs_cape.xml': blob_fixup().regex_replace(
         '.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio|dolby_audio).*\n', ''
     ),
+    (
+        'vendor/bin/poweropt-service',
+        'vendor/lib64/libapengine.so',
+        'vendor/lib64/libdpps.so',
+        'vendor/lib64/libgamepoweroptfeature.so',
+        'vendor/lib64/liblearningmodule.so',
+        'vendor/lib64/libpowercore.so',
+        'vendor/lib64/libpsmoptfeature.so',
+        'vendor/lib64/libsnapdragoncolor-manager.so',
+        'vendor/lib64/libstandbyfeature.so',
+        'vendor/lib64/libvendorscenariopoweroptfeature.so',
+        'vendor/lib64/libvideooptfeature.so',
+    ): blob_fixup()
+    .replace_needed(
+        'libtinyxml2.so',
+        'libtinyxml2-v34.so',
+    ),
 }
 
 module = ExtractUtilsModule(
