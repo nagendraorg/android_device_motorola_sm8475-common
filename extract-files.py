@@ -106,6 +106,9 @@ blob_fixups: blob_fixups_user_type = {
         'libtinyxml2.so',
         'libtinyxml2-v34.so',
     ),
+    'vendor/etc/sensors/hals.conf': blob_fixup().add_line_if_missing(
+        'sensors.moto_ext.so',
+    ),
 }
 
 module = ExtractUtilsModule(
