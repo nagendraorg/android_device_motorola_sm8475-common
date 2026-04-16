@@ -36,6 +36,8 @@ lib_fixups: lib_fixups_user_type = {
     (
         'com.qualcomm.qti.dpm.api@1.0',
         'vendor.qti.diaghal@1.0',
+        'vendor.qti.hardware.dpmservice@1.0',
+        'vendor.qti.hardware.dpmservice@1.1',
         'vendor.qti.hardware.qccsyshal@1.0',
         'vendor.qti.hardware.qccsyshal@1.1',
         'vendor.qti.hardware.qccvndhal@1.0',
