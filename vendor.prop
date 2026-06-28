@@ -282,7 +282,6 @@ ro.vendor.use_data_netmgrd=true
 # SOC
 ro.hardware.soc.manufacturer=qcom
 ro.soc.manufacturer=QTI
-ro.soc.model=SM8475
 
 # SPU
 persist.vendor.enable_spu=true
