@@ -88,7 +88,8 @@ TARGET_KERNEL_SOURCE := kernel/motorola/sm8475
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
     vendor/waipio_GKI.config \
-    vendor/ext_config/moto-waipio.config
+    vendor/ext_config/moto-waipio.config \
+    vendor/ext_config/moto-waipio-gki.config
 
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/motorola/sm8475-modules
 
@@ -117,7 +118,8 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/display-drivers/msm \
     qcom/opensource/eva-kernel \
     qcom/opensource/video-driver \
-    qcom/opensource/wlan/qcacld-3.0/.qca6490
+    qcom/opensource/wlan/qcacld-3.0/.qca6490 \
+    qcom/opensource/wlan/qcacld-3.0/.qca6750
 
 TARGET_KERNEL_EXT_MODULES += \
     motorola/drivers/mmi_annotate \
@@ -134,19 +136,25 @@ TARGET_KERNEL_EXT_MODULES += \
     motorola/drivers/moto_f_usbnet \
     motorola/drivers/misc/mmi_sys_temp \
     motorola/drivers/watchdogtest \
+    motorola/drivers/regulator/dio8018 \
     motorola/drivers/regulator/wl2864c \
     motorola/drivers/regulator/wl2868c \
     motorola/drivers/regulator/slg5bm43670 \
     motorola/drivers/sensors \
+    motorola/drivers/misc/sx937x \
     motorola/drivers/misc/sx937x_multi \
+    motorola/drivers/misc/awinic/sarsensor \
     motorola/drivers/input/touchscreen/touchscreen_mmi \
     motorola/drivers/input/touchscreen/goodix_berlin_mmi \
     motorola/drivers/input/touchscreen/stmicro_mmi \
     motorola/drivers/input/touchscreen/focaltech_touch_v3 \
+    motorola/drivers/input/misc/goodix_fod_mmi \
     motorola/drivers/input/misc/fpc_fps_mmi \
     motorola/drivers/input/misc/rbs_fod_mmi \
+    motorola/drivers/wlan_elna \
     motorola/drivers/moto_mm \
     motorola/drivers/moto_swap \
+    motorola/drivers/moto_con_dfpar \
     motorola/drivers/nfc/st21nfc \
     motorola/drivers/nfc/sn2xx \
     motorola/drivers/ese/st54x

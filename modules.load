@@ -107,8 +107,6 @@ wlan_firmware_service.ko
 cnss_plat_ipc_qmi_svc.ko
 cnss_nl.ko
 cnss_prealloc.ko
-asix.ko
-ax88179_178a.ko
 msm_sharedmem.ko
 phy-qcom-emu.ko
 phy-msm-ssusb-qmp.ko
@@ -130,6 +128,7 @@ repeater-i2c-eusb2.ko
 pm8941-pwrkey.ko
 qcom-hv-haptics.ko
 i2c-msm-geni.ko
+i2c-dev.ko
 i3c-master-msm-geni.ko
 qcom_ipc_lite.ko
 synx-driver.ko
@@ -215,6 +214,7 @@ qrtr-smd.ko
 qrtr-mhi.ko
 qrtr-gunyah.ko
 qca_cld3_qca6490.ko
+qca_cld3_qca6750.ko
 q6_notifier_dlkm.ko
 spf_core_dlkm.ko
 audpkt_ion_dlkm.ko
@@ -243,6 +243,9 @@ lpass_cdc_rx_macro_dlkm.ko
 lpass_cdc_tx_macro_dlkm.ko
 lpass_cdc_dlkm.ko
 wsa883x_dlkm.ko
+aw882xx_dlkm.ko
+aw87xxx_dlkm.ko
+fs19xx_dlkm.ko
 wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 wcd937x_dlkm.ko
@@ -281,9 +284,12 @@ st21nfc.ko
 st54spi.ko
 mmi_relay.ko
 sensors_class.ko
+sx937x_sar.ko
 sx937x_multi.ko
+awinic_sar.ko
 touchscreen_mmi.ko
 stmicro_mmi.ko
+goodix_fod_mmi.ko
 fpc1020_mmi.ko
 goodix_brl_mmi.ko
 focaltech_v3.ko
@@ -294,7 +300,10 @@ mmi_sys_temp.ko
 qpnp_adaptive_charge.ko
 cw2217b_fg_mmi.ko
 sgm4154x_charger_lite.ko
+dio8018.ko
 wl2864c.ko
+wlan_elna.ko
 moto_mm.ko
 moto_swap.ko
+con_dfpar.ko
 gpio_keys.ko
